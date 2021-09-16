@@ -102,4 +102,11 @@ def main(n, iterative, recursive, recursiveWithMemo):
     plt.show()
     print()
 
+'''
+params:
+    N (int): fibonacci number to calculate
+    Iterative (bool): calculate the number using the iterative method
+    Recursive - naive (bool): calculate the number using purely recursion. Warning: high N values (>about 30) with this method will take a significant amount of time 
+    Recursive - with memo (bool): calculate the number using recursion with memoization
+'''
 main(20, True, True, True)
